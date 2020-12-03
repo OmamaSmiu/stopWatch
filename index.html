@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="heading">Stop Watch</h1>
+<div class="Container">
+    <h1 class="Out"></h1>
+    <span id="hour" class="digit"> 00</span>
+    <h1 class="Out"></h1>
+    <span  id="min" class="digit">: 00</span>
+    <h1 class="Out"></h1>
+    <span  id="sec" class="digit">: 00</span>
+    <h1 class="Out"></h1>
+    <span  id="milisec" class="digit">: 00</span>
+</div>
+    
+    <div class="Container">
+        <button id="start" class="btn" onclick="startStop()">Start</button>
+        <span id="sap"> </span>
+        <button id="reset" class="btn" onclick="reset()">Reset</button>
+    </div>
+
+    <script src="pratice.js"></script>
+</body>
+
+</html>
